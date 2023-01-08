@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Inter', sans-serif;
+        color: #afafb1;
+    }
+    body{
+        @apply dark:bg-dark;
+    }
+}
+
+/* header */
+.header-area {
+    @apply fixed top-0 left-0 z-50 xl:w-[calc(100%-280px)] w-full h-[80px] px-[24px] xl:ml-[280px] ml-0 flex justify-between items-center shadow shadow-[0_4px_15px_rgba(47,48,45,0.1)] bg-white dark:bg-toggle transition-all duration-300 ease-linear;
+}
+
+.header-right {
+    @apply flex items-center justify-end xl:gap-[30px] md:gap-[15px] gap-[10px];
+}
+
+.toggle-menu {
+    @apply flex items-center justify-center w-[48px] h-[48px]  bg-dark rounded-full cursor-pointer transition-all duration-300 ease-linear dark:bg-white hover:bg-dark dark:hover:bg-primary;
+}
+
+.toggle-icon {
+    @apply w-[24px] h-[24px] transition-all duration-300 ease-linear fill-white dark:fill-dark group-hover:fill-white;
+}
+
+.mobile-bar {
+    @apply xl:hidden flex items-center justify-center w-[48px] h-[48px] rounded-full cursor-pointer transition-all duration-300 ease-linear bg-dark hover:bg-primary dark:bg-white dark:hover:bg-primary;
+}
+
+.mobile-bar-icon {
+    @apply w-[24px] h-[24px] transition-all duration-300 ease-linear fill-white group-hover:fill-white dark:fill-dark;
+}
+
+.trading-btn {
+    @apply inline-flex items-center justify-center min-h-[38px] px-[24px] py-[6px] rounded-[4px] text-[13px] font-medium text-white bg-primary transition-all duration-300 ease-linear hover:bg-dark hover:shadow-[0_6px_15px_rgba(0,0,0,0.2)] dark:hover:bg-white dark:hover:text-dark;
+}
+
+.trading-icon {
+    @apply w-[20px] h-[20px] mr-[10px] fill-white transition-all duration-300 ease-linear group-hover:translate-y-[-2px] dark:group-hover:fill-dark;
+}
+
+.h-notification{
+    @apply relative;
+}
+.h-notification .hn-icon{
+    @apply flex items-center justify-center w-[48px] h-[48px] rounded-full bg-dark transition-all duration-300 ease-linear cursor-pointer dark:bg-white dark:hover:bg-white;
+}
+
+.h-notification .hn-icon .icon{
+    @apply fill-black w-[24px] h-[24px] transition-all duration-300 ease-linear fill-white dark:fill-dark group-hover:fill-white;
+}
+.h-notification .notification-open{
+    @apply absolute lg:left-1/2 left-auto lg:right-auto right-0 top-[70px] lg:-translate-x-1/2 md:w-[325px] w-[280px] p-[20px] bg-white rounded-[10px] shadow-[0_4px_10px_rgba(64,123,255,0.13)] lg:origin-center origin-right dark:bg-dark;
+}
+
+.author-wrap {
+    @apply flex items-center dark:text-white;
+}
+.author-wrap .name{
+    @apply text-dark dark:text-white;
+}
+
+/* sidebar */
+
+.sidebar{
+    @apply fixed xl:left-0 left-[-100%] top-0 z-[999] w-[280px] h-full bg-[#0c0c12] border-r border-[#000]/10 overflow-hidden transition-all duration-300 ease-linear;
+}
+
+.sidebar-shape-1 {
+    @apply w-[264px] h-[264px] -z-10 absolute top-[14%] right-[-35%] rounded-full bg-white opacity-[0.04];
+}
+
+.sidebar-shape-2 {
+    @apply w-[264px] h-[264px] -z-10 absolute bottom-[-3%] left-[-35%] rounded-full bg-white opacity-[0.04];
+}
+
+.main-menu {
+    @apply xl:my-[30px] my-[20px] overflow-y-auto;
+    height: calc(100vh - 475px);
+}
+
+.nav {
+    @apply list-none m-0 p-0;
+}
+
+.nav-item {
+    @apply flex justify-end mb-[12px] last:mb-0;
+}
+
+.nav-link {
+    @apply w-[90%] flex items-center px-[22px] py-[12px] text-[12px] leading-[18px] text-[#fff] rounded-t-[5px] rounded-r-none rounded-b-none rounded-l-[5px] opacity-80 transition-all duration-300 ease-linear hover:bg-primary hover:opacity-100;
+}
+
+.nav-icon {
+    @apply w-[18px] h-[18px] mr-[10px] fill-[#fff] inline-block transition-all duration-300 ease-linear group-hover:scale-[1.2];
+}
+
+.app-info {
+    @apply justify-center items-center gap-[15px] py-[20px] px-[30px] text-[15px] text-white leading-[1.5] tracking-[-0.05px] border-t border-b border-white/[0.3];
+}
+
+.app-info span {
+    @apply mr-[10px];
+}
+
+.app-info a {
+    @apply w-[26px] h-[26px] transition-all duration-300 ease-linear hover:scale-[1.1];
+}
+
+.app-bottom {
+    @apply p-[30px];
+}
+
+.app-bottom .app-account {
+    @apply px-[28px] py-[24px] flex flex-col justify-center items-center bg-primary rounded-[5px];
+    box-shadow: 0px 5px 20px -1px rgba(0, 0, 0, 0.5);
+}
+
+.app-bottom .app-account h4 {
+    @apply text-[12px] text-white font-medium mb-[15px] tracking-[-0.05px];
+}
+
+.app-bottom .app-account h4 span {
+    @apply text-[16px] ml-[3px];
+}
+
+.app-bottom .app-account .thumb {
+    @apply mb-[20px];
+}
+
+.app-btn {
+    @apply min-h-[30px] px-[16px] py-[6px] rounded-[5px] text-[13px] font-medium text-white bg-dark/80 transition-all duration-300 ease-linear hover:bg-dark hover:translate-y-[-2px] hover:shadow-[0_6px_15px_rgba(0,0,0,0.2)];
+}
+
+/* content wrapper */
+.content-wrapper {
+    @apply relative pt-[82px] xl:pl-[300px] transition-all duration-300 ease-linear dark:bg-toggle;
+}
+
+.inner-content {
+    @apply p-[20px];
+}
+
+.dashboard-info {
+    @apply p-[15px] xl:ml-[-20px] text-white md:text-[18px] md:text-[16px] text-[14px] font-semibold leading-[1.5] text-center bg-primary;
+}
+
+.breadcrumb-wrap {
+    @apply mt-[50px] mb-[24px];
+}
+
+.breadcrumb-title {
+    @apply inline-flex items-center text-[22px] text-dark leading-[1.5] font-medium tracking-[-0.06px] dark:text-white;
+}
+
+.breadcrumb-icon {
+    @apply w-[24px] h-[24px] mr-[10px] dark:fill-white;
+}
+
+/* toggle sidebar */
+
+.sidebar-toggle .logo{
+    @apply xl:w-[50px] xl:mx-auto;
+}
+
+.sidebar-toggle .main-menu{
+    @apply h-[calc(100vh-112px)];
+}
+.sidebar-toggle .nav-link .nav-icon{
+    @apply xl:w-[24px] xl:h-[24px] xl:mr-0;
+}
+
+.sidebar-toggle .nav-link .text{
+    @apply xl:hidden;
+}
+
+/* dashboard */
+.dashboard-card{
+    @apply p-[30px] mb-[30px] rounded-[10px] bg-[#F5F9FF] relative z-10 overflow-hidden dark:bg-dark;
+}
+.dashboard-card .shape-bg{
+    @apply absolute left-0 bottom-0 -z-10 w-full;
+}
+
+.dashboard-card .d-icon{
+    @apply flex items-center justify-center w-[40px] h-[40px] rounded-full mb-[16px];
+}
+.dashboard-card .d-icon .icon{
+    @apply w-[20px] h-[20px] fill-white;
+}
+.dashboard-card .content h2{
+    @apply text-[28px] text-dark font-medium leading-[1.5] tracking-[-0.24px] dark:text-white;
+}
+.dashboard-card .content p{
+    @apply text-[15px] text-dark font-normal leading-[1.5] tracking-[-0.05px] capitalize dark:text-white;
+}
+
+.card-wrap{
+    @apply md:p-[30px] p-[20px] mb-[30px] rounded-[10px] bg-[#F5F9FF] relative z-10 overflow-hidden dark:bg-dark;
+}
+
+.card-wrap .card-title{
+    @apply text-[18px] text-dark font-semibold leading-[1.167] tracking-[-0.06px] mb-[30px] dark:text-white;
+}
+
+.account-info-top{
+    @apply flex md:flex-nowrap flex-wrap justify-between lg:gap-[50px] gap-[10px];
+}
+.account-info-top .info-item{
+    @apply md:block flex md:flex-nowrap flex-wrap justify-between lg:gap-[50px] gap-[10px];
+}
+.account-info-top h4{
+    @apply text-dark text-[16px] font-medium leading-[1.167] tracking-[-0.05px] mb-[8px] dark:text-white;
+}
+.account-info-top p{
+    @apply text-dark text-[15px] font-medium leading-[1.167] tracking-[-0.05px] mb-[8px] dark:text-white;
+}
+.account-info-top .pass-show{
+    @apply flex justify-between;
+}
+
+.account-info-bottom h4{
+    @apply text-[18px] text-dark font-medium leading-[1.167] tracking-[-0.06px] mb-[20px] dark:text-white;
+}
+.account-info-bottom p{
+    @apply text-dark text-[15px] font-medium leading-[1.167] tracking-[-0.05px] dark:text-white;
+}
+
+.account-info-btn{
+    @apply inline-flex items-center justify-center  min-h-[40px] px-[16px] py-[6px] bg-primary rounded-[8px] text-white transition-all duration-300 ease-linear hover:bg-dark hover:shadow-[0_6px_15px_rgba(0,0,0,0.2)] dark:hover:bg-white dark:hover:text-dark;
+}
+
+.t-row:hover{
+    box-shadow: 0 0 #0000,0 0 #0000,0 0 #0000,0 0 #0000,0px 2.13333px 36px rgba(217,225,255,.3);
+}
+
+.table-wrap{
+    @apply rounded-[5px] dark:bg-dark;
+}
+
+.faq-nav-wrap,
+.faq-tab-wrap{
+    @apply rounded-[5px];
+}
