@@ -63,7 +63,7 @@
             <img class="w-[40px] h-[40px] rounded-[5px]" src="/assets/img/author/author.jpeg" alt="author">
           </div>
           <div class="name ml-[15px]">
-            joey s.
+            d4t
             <svg class="inline-block w-[24px] h-[24px] fill-dark dark:fill-white" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M7 10l5 5 5-5z"></path>
             </svg>
@@ -124,8 +124,8 @@
     </div>
     <div class="lg:hidden flex flex-wrap flex-col items-center justify-center">
       <img class="w-[55px] h-[55px] rounded-full" src="/assets/img/author/author.jpeg" alt="author">
-      <h4 class="text-white text-[15px] mt-[8px]">joey scaro</h4>
-      <p class="text-primary text-[12px] mt-[8px]">joeyscaro@gmail.com</p>
+      <h4 class="text-white text-[15px] mt-[8px]">mikha dev</h4>
+      <p class="text-primary text-[12px] mt-[8px]">mikha.dev@gmail.com</p>
     </div>
     <div class="main-menu">
       <ul class="nav">

@@ -130,8 +130,8 @@ const toggleDark = useToggle(isDark);
     </div>
     <div class="lg:hidden flex flex-wrap flex-col items-center justify-center">
       <img class="w-[55px] h-[55px] rounded-full" src="/assets/img/author/author.jpeg" alt="author">
-      <h4 class="text-white text-[15px] mt-[8px]">joey scaro</h4>
-      <p class="text-primary text-[12px] mt-[8px]">joeyscaro@gmail.com</p>
+      <h4 class="text-white text-[15px] mt-[8px]">mikha dev</h4>
+      <p class="text-primary text-[12px] mt-[8px]">mikha.dev@gmail.com</p>
     </div>
     <div class="main-menu">
       <ul class="nav">
@@ -265,8 +265,8 @@ const toggleDark = useToggle(isDark);
                         </svg>
                       </button>
                     </div>
-                    <h4 class="text-dark font-semibold 2xl:text-[18px] text-[14px] dark:text-white">joey scaro</h4>
-                    <p class="text-dark 2xl:text-[18px] text-[14px] mb-[10px] dark:text-white/70">joeyscaro@gmail.com</p>
+                    <h4 class="text-dark font-semibold 2xl:text-[18px] text-[14px] dark:text-white">mikha dev</h4>
+                    <p class="text-dark 2xl:text-[18px] text-[14px] mb-[10px] dark:text-white/70">mikha.dev@gmail.com</p>
                     <p class="text-primary text-[13px] flex items-center justify-center">
                       <svg class="w-[14px] h-[14px] fill-primary mr-[5px]" focusable="false" viewBox="0 0 24 24"
                            aria-hidden="true">
@@ -312,14 +312,14 @@ const toggleDark = useToggle(isDark);
                         <div class="input-wrap mb-[30px]">
                           <input
                               class="w-full xl:h-[60px] h-[50px] xl:text-[16px] text-[14px] text-dark border border-[#dad7ff] px-[30px] outline-0 rounded-[10px] focus:border-primary placeholder-dark/60 focus:placeholder-transparent"
-                              type="text" placeholder="joey">
+                              type="text" placeholder="user">
                         </div>
                       </div>
                       <div class="xl:w-6/12 lg:w-6/12 w-full px-[15px]">
                         <div class="input-wrap mb-[30px]">
                           <input
                               class="w-full xl:h-[60px] h-[50px] xl:text-[16px] text-[14px] text-dark border border-[#dad7ff] px-[30px] outline-0 rounded-[10px] focus:border-primary placeholder-dark/60 focus:placeholder-transparent"
-                              type="text" placeholder="scaro">
+                              type="text" placeholder="user">
                         </div>
                       </div>
                       <div class="xl:w-6/12 lg:w-6/12 w-full px-[15px]">

@@ -130,8 +130,8 @@ const toggleDark = useToggle(isDark);
     </div>
     <div class="lg:hidden flex flex-wrap flex-col items-center justify-center">
       <img class="w-[55px] h-[55px] rounded-full" src="/assets/img/author/author.jpeg" alt="author">
-      <h4 class="text-white text-[15px] mt-[8px]">joey scaro</h4>
-      <p class="text-primary text-[12px] mt-[8px]">joeyscaro@gmail.com</p>
+      <h4 class="text-white text-[15px] mt-[8px]">mikha dev</h4>
+      <p class="text-primary text-[12px] mt-[8px]">mikha.dev@gmail.com</p>
     </div>
     <div class="main-menu">
       <ul class="nav">
