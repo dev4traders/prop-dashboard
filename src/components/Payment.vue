@@ -82,7 +82,7 @@
             <ul>
               <li class="border-b border-[#DFE5F2]">
                 <a href="#" class="block text-primary text-[18px] leading-[1.5] tracking-[-0.05px] py-[10px] dark:group-hover:!fill-primary">
-                  joeyscaro@gmail.com
+                  mikha.dev@gmail.com
                 </a>
               </li>
               <li class="border-b border-[#DFE5F2] group">

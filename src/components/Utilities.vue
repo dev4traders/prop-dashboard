@@ -69,7 +69,7 @@ const toggleDark = useToggle(isDark);
             <img class="w-[40px] h-[40px] rounded-[5px]" src="/assets/img/author/author.jpeg" alt="author">
           </div>
           <div class="name ml-[15px]">
-            joey s.
+            d4t
             <svg class="inline-block w-[24px] h-[24px] fill-dark dark:fill-white" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M7 10l5 5 5-5z"></path>
             </svg>
@@ -88,7 +88,7 @@ const toggleDark = useToggle(isDark);
             <ul>
               <li class="border-b border-[#DFE5F2]">
                 <a href="#" class="block text-primary text-[18px] leading-[1.5] tracking-[-0.05px] py-[10px] dark:group-hover:!fill-primary">
-                  joeyscaro@gmail.com
+                  mikha.dev@gmail.com
                 </a>
               </li>
               <li class="border-b border-[#DFE5F2] group">
@@ -295,7 +295,7 @@ const toggleDark = useToggle(isDark);
                           </div>
                           <div class="content md:flex-1">
                             <p class="text-dark text-[18px] font-medium leading-[1.5] tracking-[-0.05px] mb-[8px] dark:text-white">
-                              Union Wealth Managment Trading Journal.
+                              Prop Dashboard Trading Journal.
                             </p>
                             <p class="text-[#4A485F] text-[16px] font-normal leading-[1.5] tracking-[-0.05px] mb-[8px] dark:text-white/70">
                               Here you can record and review you daily trades for better output and for future
@@ -326,7 +326,7 @@ const toggleDark = useToggle(isDark);
                           </div>
                           <div class="content md:flex-1">
                             <p class="text-dark text-[18px] font-medium leading-[1.5] tracking-[-0.05px] mb-[8px] dark:text-white">
-                              Union Wealth Managment Risk Calculator
+                              Risk Calculator
                             </p>
                             <p class="text-[#4A485F] text-[16px] font-normal leading-[1.5] tracking-[-0.05px] mb-[8px] dark:text-white/70">
                               One of the most important tools in a trader's bag is risk management. With a few simple
@@ -357,10 +357,10 @@ const toggleDark = useToggle(isDark);
                           </div>
                           <div class="content md:flex-1">
                             <p class="text-dark text-[18px] font-medium leading-[1.5] tracking-[-0.05px] mb-[8px] dark:text-white">
-                              Union Wealth Managment MT4
+                              MT4
                             </p>
                             <p class="text-[#4A485F] text-[16px] font-normal leading-[1.5] tracking-[-0.05px] mb-[8px] dark:text-white/70">
-                              Union Wealth Managment-Eightcap MT4 downloader.
+                              MT4 downloader.
                             </p>
                           </div>
                           <div class="download">

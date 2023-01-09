@@ -69,7 +69,7 @@ const toggleDark = useToggle(isDark);
             <img class="w-[40px] h-[40px] rounded-[5px]" src="/assets/img/author/author.jpeg" alt="author">
           </div>
           <div class="name ml-[15px]">
-            joey s.
+            d4t
             <svg class="inline-block w-[24px] h-[24px] fill-dark dark:fill-white" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M7 10l5 5 5-5z"></path>
             </svg>
@@ -88,7 +88,7 @@ const toggleDark = useToggle(isDark);
             <ul>
               <li class="border-b border-[#DFE5F2]">
                 <a href="#" class="block text-primary text-[18px] leading-[1.5] tracking-[-0.05px] py-[10px] dark:group-hover:!fill-primary">
-                  joeyscaro@gmail.com
+                  mikha.dev@gmail.com
                 </a>
               </li>
               <li class="border-b border-[#DFE5F2] group">
@@ -374,14 +374,14 @@ const toggleDark = useToggle(isDark);
                     <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
                   </svg>
                 </div>
-                <h4 class="text-dark text-[15px] font-medium leading-[1.167] tracking-[-0.05px] dark:text-white">Nasser Zaffer</h4>
+                <h4 class="text-dark text-[15px] font-medium leading-[1.167] tracking-[-0.05px] dark:text-white">Prop Manager1</h4>
                 <div class="flex flex-wrap items-center px-[16px] py-[18px] rounded-[6px] mt-[15px] bg-white">
                   <svg class="icon w-[24px] h-[24px] mr-[16px] fill-primary" focusable="false" viewBox="0 0 24 24"
                        aria-hidden="true">
                     <path
                         d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"></path>
                   </svg>
-                  <span class="flex-1 break-all text-[14px] text-dark text-left">@Nasser_union Wealth Managment</span>
+                  <span class="flex-1 break-all text-[14px] text-dark text-left">@d4t Prop Dashboard</span>
                 </div>
               </div>
             </div>

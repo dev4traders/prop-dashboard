@@ -69,7 +69,7 @@ const toggleDark = useToggle(isDark);
             <img class="w-[40px] h-[40px] rounded-[5px]" src="/assets/img/author/author.jpeg" alt="author">
           </div>
           <div class="name ml-[15px]">
-            joey s.
+            d4t
             <svg class="inline-block w-[24px] h-[24px] fill-dark dark:fill-white" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M7 10l5 5 5-5z"></path>
             </svg>
@@ -88,7 +88,7 @@ const toggleDark = useToggle(isDark);
             <ul>
               <li class="border-b border-[#DFE5F2]">
                 <a href="#" class="block text-primary text-[18px] leading-[1.5] tracking-[-0.05px] py-[10px] dark:group-hover:!fill-primary">
-                  joeyscaro@gmail.com
+                  mikha.dev@gmail.com
                 </a>
               </li>
               <li class="border-b border-[#DFE5F2] group">
